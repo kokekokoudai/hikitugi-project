@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "M PLUS 1p", system-ui;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    scroll-padding: 70px;
+}
+
+body {
+    padding-top: 90px; /* ヘッダーの後ろに要素が隠れないようにするため */
+}
+
+header {
+    width: 100%; /* 幅いっぱいを指定 */
+    height: 50px; /* 高さを50pxに指定 */
+    background: #CCC; /* 背景色にグレーを指定 */
+    padding: 20px 50px; /* ヘッダーに上下左右それぞれ余白を指定 */
+    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    display: flex; /* 中の要素を横並びにする */
+    align-items: center; /* 中の要素を上下中央に並べる */
+    color: black;
+}
+
+header h1 a{
+    color: black;
+}
+
+header .gnav .menu {
+    display: flex; /* 中の要素を横並びにする */
+}
+
+header .gnav .menu li a{
+    list-style: none; /* リストの[・]を消す */
+    margin: 15px;
+    font-size: 15px; 
+    color: black;
+}
+
+header .gnav .menu li i{
+    font-size: 13px;
+    margin-right: 5px;
+    color: black;
+}
+
+
+main {
+    height: 100vw; /* スクロールの演出を見れるようにmainに高さを指定 */
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    border-top:solid rgb(30,30,50);
+    border-bottom: solid rgb(34,33,66);
+}
+
+main li{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main li #役職{
+    background-color:rgba(1,1,1,0.1);
+}
+
+main li #人数{
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+main li #お仕事{
+    background-color:rgba(1,1,1,0.1);
+    font-size: 20px;
+}
+
+main li #会則{
+    background-color:rgba(0,0,0,0.1);
+    font-size: 10px;
+}
+
+main li #ヘルプ{
+    background-color:rgba(0,0,0,0.1);
+    font-size: 10px;
+}
+
+main li #作成{
+    background-color: rgba(0,0,0,0.1);
+    font-size: 10px;
+}

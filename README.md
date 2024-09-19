@@ -1,2 +1,1 @@
-# hikitugi-project
-Github試し使い
+# 北広島高校生徒会執行部　引継ぎ

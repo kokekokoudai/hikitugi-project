@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "M PLUS 1p", system-ui;
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  background: #eee;
+  box-sizing: border-box;
+  transition: padding .3s;
+}
+header .inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.logo {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+
+/* header-navi */
+
+header .navi {
+  margin: 0 0 0 auto;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  list-style: none;
+}
+header .navi li {
+  margin: 5px 0 5px 40px;
+}
+header .navi li:first-child {
+  margin-left: 0;
+}
+header .navi li a {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #333;
+}
+header .navi li a:hover {
+  text-decoration: underline;
+}
+
+/* add css  */
+
+#header.scroll {
+  padding: 10px 40px;
+}
+
+/* layout */
+
+body{
+  margin: 0;
+  padding: 0;
+}
+#main{
+  height: 3000px;
+}
+
+/* main section */
+
+main{
+  padding-top: 95px;
+}

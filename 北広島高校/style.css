@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "M PLUS 1p", system-ui;
+}
+
+:root{
+    scroll-padding: 100px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header-5 {
+    box-sizing: border-box;
+    width: 100%;
+    position:fixed;
+    background-color: #333;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    height: 50px;
+  }
+  
+  .header-inner {
+    display: flex;
+    align-items: center;
+    max-width: 1024px;
+    height: 60px;
+    padding: 0 0.8em;
+    margin: 0 auto;
+    font-size: 1.2em;
+  }
+  
+.header-nav-list {
+  display: inline-block;
+}
+  
+.header-nav-item {
+  float: left;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ccc;
+  text-align: center;
+  list-style: none;
+  }
+  
+.header-nav-item a {
+  text-decoration: none;
+  color: white;;
+  font-size: 15px;
+  margin-left: 10px;
+}
+  
+  .header-ham {
+  display: none;
+}
+  
+.menu2 {
+  width: 20px;
+  height: 3px;
+  margin: 4px 0;
+  margin-right: 0;
+  background-color: #333;
+}
+  
+.select {
+  color: white;
+  font-size: 20px;
+}
+
+.header-nav-item #なし{
+  pointer-events: none;
+  }
+  
+.header-nav-item #名:hover {
+  background:rgba(12,12,12,0.4);
+  font-weight: bold;
+  border-bottom: solid white;
+}
+  
+.logo img {
+  width: 70px;
+}
+  
+body{
+    padding-top: 55px;
+}
+
+h2 {
+  font-size: 30px;
+  border-top:solid rgba(300,1,40,0.1);
+  border-bottom: solid rgba(1,1,1,0.1);
+  background-color: rgba(3,200,1,0.3);
+}
+
+h2#daimei {
+  text-align: center;
+}
+
+h5{
+  padding-left: 50px;
+  text-decoration: underline solid black;
+}
+
+p{
+  padding-left: 35px;
+  padding-top: 8px;
+  padding-bottom: 15px;
+  margin-top: 8px;
+}
+
+p a{
+  color: black;
+  text-decoration: underline double black;
+  font-weight: bold;
+}
+
+.img-iwasaki{
+  width: 210px;
+  height: 250px;
+  background-image: url(iwasaki.jpg);
+}
+
+.mawarikomi{
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 30px;
+}
+
+.zentai{
+  padding-bottom: 100px;
+}
+
+.mawarikomi-2{
+  float: left;
+  margin-right: 30px;
+}
+
+.img-eki{
+  width: 800px;
+  height: 550px;
+  background-image: url(eki.png);
+}

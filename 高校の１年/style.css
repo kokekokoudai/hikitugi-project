@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "M PLUS 1p", system-ui;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+  scroll-padding: 100px;
+}
+
+body {
+    padding-top: 90px; /* ヘッダーの後ろに要素が隠れないようにするため */
+}
+
+header {
+    width: 100%; /* 幅いっぱいを指定 */
+    height: 60px; /* 高さを50pxに指定 */
+    background: #CCC; /* 背景色にグレーを指定 */
+    padding: 15px 30px; /* ヘッダーに上下左右それぞれ余白を指定 */
+    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    display: flex; /* 中の要素を横並びにする */
+    align-items: center; /* 中の要素を上下中央に並べる */
+    font-size: 10px;
+}
+
+header h1 a i{
+  color: gray;
+}
+
+header .gnav .menu {
+    display: flex; /* 中の要素を横並びにする */
+}
+
+header .gnav .menu li {
+    list-style: none; /* リストの[・]を消す */
+    margin: 8px;
+    font-size: 10px; 
+}
+
+header .gnav .menu li a{
+  color: black;
+}
+
+header .gnav .menu li i{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+main {
+    height: 100vw; /* スクロールの演出を見れるようにmainに高さを指定 */
+}
+
+/* 年表 section */
+
+body * {
+    box-sizing: border-box;
+  }
+  
+  body p {
+    line-height: 1.8;
+  }
+  
+  body h1 #年表{
+    font-size: 33px;
+    margin-left: 20px;
+    padding: 20px;
+    font-weight: bold;
+  }
+  
+  dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  dl dt {
+    text-align: right;
+    width: 8.5em;
+    padding: 0.5em 1.0em 0.5em 0.5em;
+    position: relative;
+    z-index: -10;
+  }
+  
+  dl dt::after {
+    content: '●';
+    position: absolute;
+    right: -0.55em;
+    top: 5px;
+    font-size: 22px;
+    color: green;
+    z-index: -10px;
+  }
+  
+  dl dd {
+    width: calc(100% - 8.5em);
+    padding: 0.5em 2.0em 3.0em;
+    border-left: 2px solid gray;
+  }
+  
+  dl dd h2 a{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 5px;
+    color: black;
+    text-decoration: underline solid black;
+  }
+
+  dl dd h2 a:hover{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: double solid black;
+    background-color: rgba(1,1,1,0.1);
+    transition: all 0.5s;
+  }

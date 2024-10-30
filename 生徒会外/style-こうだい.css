@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   font-family: "M PLUS 1p", system-ui;
+}
+
+:root{
+   scroll-padding: 100px;
+   scroll-behavior: smooth;
+   transition: all 0.8s;
+}
+
+/* header section */
+* {
+   box-sizing: border-box;
+ }
+ body {
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
+ }
+ header {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 15px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+ }
+ h1 {
+   margin: 0; padding: 0;
+   font-size: 20px;
+ }
+ a {	
+   text-decoration: none;
+   color: #4b4b4b;
+ }
+ nav {
+   margin: 0 0 0 auto;
+ }
+
+ ul{
+   display: flex;
+   padding-left: 10px;
+ }
+
+ li{
+   list-style: none;
+   padding-left: 10px;;
+ }
+
+ ul li:hover{
+   text-decoration: underline black;
+   font-weight: bold;
+ }
+
+ main{
+   padding-top: 90px;
+ }
+
+ h1{
+   border-top: solid rgba(1,1,1,0.1);
+   border-bottom: solid rgba(1,1,1,0.1);
+   padding-left: 40px;
+ }
+
+ .name{
+   font-size: 15px;
+   font-weight: bold;
+   background-color: beige;
+ }
+
+h3{
+   padding-left: 20px;
+}
+
+h5{
+   padding-left: 20px;
+}
+
+.matubi{
+   border-bottom: double 6px black;
+}
+
+table{
+   margin-top: 20px;
+   margin-left: 30px;
+   margin-bottom: 15px;
+
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+img{
+  margin-left: 30px;
+  padding-top: 10px;
+  width: 400px;
+  height: 460px;
+}
+
+img.ll{
+  width: 400px;
+  height: 200px;
+}

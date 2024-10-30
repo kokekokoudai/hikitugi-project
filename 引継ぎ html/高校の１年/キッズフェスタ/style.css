@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "M PLUS 1p", system-ui;
+}
+
+h1 {
+    border-top: double 5px black;
+    border-bottom: double 5px black;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    padding-left: 30px;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+}

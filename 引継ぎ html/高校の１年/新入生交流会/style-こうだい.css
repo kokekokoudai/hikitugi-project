@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "M PLUS 1p", system-ui;
+}
+
+h1 {
+    border-top: double 5px black;
+    border-bottom: double 5px black;
+    text-align: center;
+}
+h1 i{
+    color: black;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    padding-left: 30px;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+}
+
+p{
+    margin-left: 15px;
+}
+
+p.pp{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: dotted black;
+}
+
+p.pp span.bold{
+    font-weight: bold;
+    text-decoration: underline solid black;
+}
+p.pp span.bold2{
+    font-weight: bold;
+    text-decoration: underline double black;
+}
+
+p.ppp span.bold{
+    font-weight: bold;
+    text-decoration: underline solid black;
+}
+
+iframe{
+    margin-left: 30px;
+    width: 400px;
+    height: 280px;
+}
+
+img{
+    margin-left: 18px;
+    width: 500px;
+    height: 370px;
+}
+
+img.event{
+    width: 500px;
+    height: 250px;
+}

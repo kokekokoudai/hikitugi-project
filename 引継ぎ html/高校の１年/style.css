@@ -36,6 +36,10 @@ header {
     font-size: 10px;
 }
 
+header h1 a i{
+  color: gray;
+}
+
 header .gnav .menu {
     display: flex; /* 中の要素を横並びにする */
 }
@@ -44,6 +48,10 @@ header .gnav .menu li {
     list-style: none; /* リストの[・]を消す */
     margin: 8px;
     font-size: 10px; 
+}
+
+header .gnav .menu li a{
+  color: black;
 }
 
 header .gnav .menu li i{
@@ -93,18 +101,27 @@ body * {
     top: 5px;
     font-size: 22px;
     color: green;
-    z-index: -1;
+    z-index: -10px;
   }
   
   dl dd {
     width: calc(100% - 8.5em);
     padding: 0.5em 2.0em 3.0em;
     border-left: 2px solid gray;
-
   }
   
   dl dd h2 a{
     font-size: 22px;
     font-weight: bold;
     margin: 0 0 5px;
+    color: black;
+    text-decoration: underline solid black;
+  }
+
+  dl dd h2 a:hover{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: double solid black;
+    background-color: rgba(1,1,1,0.1);
+    transition: all 0.5s;
   }
